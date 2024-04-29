@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div>
-        <div className='bg-black text-gray-400 h-[80px] max-w-[100%] mx-auto flex justify-between items-center'>
+        <div className='bg-black text-gray-400 h-[80px] max-w-[1200px] mx-auto flex justify-between items-center'>
 
             <h1 className='text-3x1 font-bold primary-color ml-4'>Portfoilo</h1>
             <ul className='hidden md:flex'>

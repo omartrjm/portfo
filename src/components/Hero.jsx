@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
  const Hero = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 max-w-[100%]  h-[70vh]  mx-auto py-8 bg-black'>
+    <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 max-w-[1200px]  h-[70vh]  mx-auto py-8 bg-black'>
 
         <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]'>
             <img src={heroimage} alt='hero image'/>
