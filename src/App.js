@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import  Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Skills from './components/Skills';
+
 
 function App() {
   return (
     <div className="App">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
       
-        <Navbar/>
-        
+      <Navbar/>      
+      <Hero/>
+      <Skills/>
     </div>
   );
 }
