@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.primiray-color{
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-gray-900 inline-block;
+.primary-color{
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-teal-900 inline-block;
 }
 
 body{

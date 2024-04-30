@@ -4,6 +4,9 @@ import  Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import About from './components/About';
+import Work from './components/Work';
+import Contact from './components/Contact';
+
 
 
 
@@ -14,7 +17,9 @@ function App() {
       <Navbar/>      
       <Hero/>
       <Skills/>
-      <About/>//
+      <About/>
+      <Work/>
+      <Contact/>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import react from '../assets/react.png'
 
 export const Skills = () => {
   return (
-    <div className=' border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[900px] mx-auto
+    <div className=' border border-gray-900 bg-black text-gray-400 md:h-[150px] max-w-[900px] mx-auto
                         grid grid-cols-6 place-items-center md:flex md:justify-between md:items-center'>
         
         {/* <h2 className="text-gray-200 text-2xl md:text-4x1 font-bold ms-4">

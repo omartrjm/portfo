@@ -1,12 +1,12 @@
 import React from 'react'
-import heroimage from '../assets/profile.avif'
+import heroimage from '../assets/profile2.avif'
 import { TypeAnimation } from 'react-type-animation';
 
  const Hero = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 max-w-[1200px]  h-[70vh]  mx-auto py-8 bg-black'>
 
-        <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]'>
+        <div className='col-span-1 my-auto mx-auto w-[200px] h-auto lg:w-[300px]'>
             <img src={heroimage} alt='hero image'/>
         </div>
 
@@ -16,6 +16,7 @@ import { TypeAnimation } from 'react-type-animation';
                     I'm a
                 </span> <br/>
                 <TypeAnimation
+                
                 sequence={[
                     "Frontend Dev",
                     2000,
@@ -30,12 +31,12 @@ import { TypeAnimation } from 'react-type-animation';
                 />
             </h1>
             <p className="text-white sm:text-lg my-6 lg:text-xl">
-                My name is Omar Im a Full Stack Developer
-            </p>
+                My name is Omar I'm a Full Stack Developer
+            </p> <></>
             <div className='my-8'>
                 <a href="resume" className="px-6 py-3 w-full rounded-xl mr-5
                             bg-gradient-to-br from-blue-950 to-teal-900 text-white">
-                    Download CV
+                    {/* Download CV */}CV
                 </a>
                 <a href="#contact" className="px-6 py-3 w-full rounded-xl 
                               bg-gradient-to-br from-blue-950 to-teal-900 text-white  border border-gray-500 hover:border-none ">
