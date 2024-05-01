@@ -12,27 +12,27 @@ const Contact = () => {
             <div class="mt-6 bg-[#161616] rounded-xl">
                 <div class="p-10">
 
-                <form action="#" method="POST">
+                <form action="https://getform.io/f/nadoqjkb" method="POST">
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
                         <div>
-                            <div class="mt-2.5 relative">
-                                <input type="text" name="" id="" placeholder="Name"
+                            <div class="mt-2.5 ">
+                                <input type="text" name="name" id="" placeholder="Name"
                                     class="bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-300 border
                                         border-gray-700 rounded-md focus:outline-none focus:border-gray-300" />
                             </div>
                         </div>
 
                         <div>
-                            <div class="mt-2.5 relative">
-                                <input type="text" name="" id="" placeholder="Email"
+                            <div class="mt-2.5 ">
+                                <input type="text" name="email" id="" placeholder="Email"
                                     class="bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-300 border
                                         border-gray-700 rounded-md focus:outline-none focus:border-gray-300" />
                             </div>
                         </div>
 
                         <div class="sm:col-span-2">
-                            <div class="mt-2.5 relative">
-                                <textarea type="text" name="" id="" placeholder="Message"
+                            <div class="mt-2.5 ">
+                                <textarea  name="message" id="" placeholder="Message"
                                     class="bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-300 border
                                         border-gray-700 rounded-md focus:outline-none focus:border-gray-300" rows="3">
                                 </textarea>            
@@ -41,7 +41,7 @@ const Contact = () => {
 
                         <div class="sm:col-span-2">
                             <button type="submit" 
-                                    class="text-x1 w-full p-4 mt-2 font-semibold text-gray-300 bg-gradient-to-r from-blue-950 to-teal-950  rounded-md">
+                                    class="text-x1 w-full p-4 mt-2 font-semibold text-gray-300 bg-primary-color  rounded-md">
                                 Send
                             </button>
                         </div>

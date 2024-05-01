@@ -34,9 +34,10 @@ import { TypeAnimation } from 'react-type-animation';
                 My name is Omar I'm a Full Stack Developer
             </p> <></>
             <div className='my-8'>
-                <a href="resume" className="px-6 py-3 w-full rounded-xl mr-5
+                <a href="/" className="px-6 py-3 w-full rounded-xl mr-5
                             bg-gradient-to-br from-blue-950 to-teal-900 text-white">
                     {/* Download CV */}CV
+                    
                 </a>
                 <a href="#contact" className="px-6 py-3 w-full rounded-xl 
                               bg-gradient-to-br from-blue-950 to-teal-900 text-white  border border-gray-500 hover:border-none ">
