@@ -1,6 +1,8 @@
-import React from 'react'
-import heroimage from '../assets/profile2.avif'
+import React from 'react';
+import heroimage from '../assets/profile2.avif';
 import { TypeAnimation } from 'react-type-animation';
+import PF from  "../assets/t.pdf";
+import {PDFDownloadLink} from '@react-pdf/renderer';
 
  const Hero = () => {
   return (
@@ -36,9 +38,18 @@ import { TypeAnimation } from 'react-type-animation';
             <div className='my-8'>
                 <a href="/" className="px-6 py-3 w-full rounded-xl mr-5
                             bg-gradient-to-br from-blue-950 to-teal-900 text-white">
-                    {/* Download CV */}CV
+                    {/* Download CV */}
+
                     
+                <PDFDownloadLink document={<PF/>} fileName="CV">
+                    {({loading}) => 
+                    loading ? (<button>Loading CV...</button>)
+                     : (<button>Download CV</button>) }
+                </PDFDownloadLink>
+                
                 </a>
+                
+
                 <a href="#contact" className="px-6 py-3 w-full rounded-xl 
                               bg-gradient-to-br from-blue-950 to-teal-900 text-white  border border-gray-500 hover:border-none ">
                     Contact
